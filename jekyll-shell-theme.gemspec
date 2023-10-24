@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-shell-theme"
+  spec.name          = "Matthews-Project-Vault"
   spec.version       = "0.1.1"
-  spec.authors       = ["Tareq El Dandachi"]
+  spec.authors       = ["Matt-Smith"]
   spec.email         = ["tareqdandachi@gmail.com"]
 
   spec.summary       = "A Jekyll Theme that looks like a shell"

@@ -1,9 +1,9 @@
-title: "jekyll-shell-theme"
-tagline: "A jekyll theme that looks like a shell/terminal"
-description: "This is a preview of jekyll-shell-theme."
-github_username: tareqdandachi
-baseurl: "/jekyll-shell-theme"
-url: "https://tareqdandachi.github.io"
+title: "Matthews-Project-Vault"
+tagline: "Personal Site for my articles and projects"
+description: "This is my personal site, Please look at my articles or my about me page"
+github_username: Matthew-a-smith
+baseurl: "/home"
+url: "http://localhost:4000/home/"
 
 plugins:
   - jemoji
@@ -16,7 +16,7 @@ sass:
 highlighter: rouge
 
 header_pages:
-  - index.md
+  - home.md
   - read-me.md
   - preview.md
 
