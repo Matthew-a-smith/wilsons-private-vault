@@ -19,6 +19,11 @@ header_pages:
   - home.md
   - read-me.md
   - preview.md
+  - article.md
+      
+#paginate: 4
+#per_page: 4
+#paginate_path: "/article/page/:num/"
 
 # set the size of the text to 'large' or 'small', default is small
 font-size: small
