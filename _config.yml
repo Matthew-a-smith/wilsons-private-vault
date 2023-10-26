@@ -2,8 +2,8 @@ title: "Matthews-Project-Vault"
 tagline: "Personal Site for my articles and projects"
 description: "This is my personal site, Please look at my articles or my about me page"
 github_username: Matthew-a-smith
-baseurl: "/home"
-url: "http://localhost:4000/home/"
+baseurl: ""
+url: "http://localhost:4000"
 
 plugins:
   - jemoji
@@ -17,9 +17,7 @@ highlighter: rouge
 
 header_pages:
   - home.md
-  - read-me.md
-  - preview.md
-  - article.md
+  - articles/article.md
       
 #paginate: 4
 #per_page: 4

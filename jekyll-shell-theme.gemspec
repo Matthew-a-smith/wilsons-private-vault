@@ -4,10 +4,10 @@ Gem::Specification.new do |spec|
   spec.name          = "Matthews-Project-Vault"
   spec.version       = "0.1.1"
   spec.authors       = ["Matt-Smith"]
-  spec.email         = ["tareqdandachi@gmail.com"]
+  spec.email         = ["matthew.a.smith1999@outlook.com"]
 
-  spec.summary       = "A Jekyll Theme that looks like a shell"
-  spec.homepage      = "https://tareqdandachi.github.io/jekyll-shell-theme/"
+  spec.summary       = "Simple site for articles and thoughts"
+  spec.homepage      = "http://localhost:4000"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
