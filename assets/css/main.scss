@@ -1,8 +1,7 @@
 ---
-# Style-Sheet
+ #Style-Sheet
 ---
 
-/* FONTS */
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
 @import url('syntax-highlighting.css');
@@ -23,21 +22,19 @@ body {
   font-family: 'Source Code Pro', monospace;
   margin: 0 auto;
   width: 90%;
-  max-width: 700px;
-  line-height: 1.6em; /* Retro '90s line height */
-  font-size: 0.8em; /* Smaller font size */
+  max-width: 800px; /* Slightly wider for improved readability */
+  line-height: 1.6em;
+  font-size: 1em; /* Larger font size for improved readability */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-  margin-top: 22px;
   font-weight: bold;
   color: var(--pop-color);
-  font-size: 1.2em; /* Larger heading font size */
+  font-size: 1.2em; /* Slightly larger heading font size */
 }
 
 p, ul, ol {
-  font-size: 0.8em;
+  font-size: 1em; /* Matching font size for text content */
   color: var(--text-color);
 }
 
@@ -51,76 +48,6 @@ a:hover {
   background-color: var(--alt-color);
 }
 
-.primary-text {
-  color: var(--main-color);
-}
-
-@media only screen and (max-device-width: 500px) {
-  * {
-    font-size: 12px !important;
-  }
-}
-
-b, strong {
-  color: var(--main-color);
-}
-
-.invert {
-  color: var(--bg-color);
-  background-color: var(--main-color);
-  padding: 3px;
-}
-
-/* SMALL FONT OVERRIDE */
-body.large {
-  line-height: 1.6em;
-  font-size: 1em; /* Normal font size */
-}
-
-/* LAYOUT */
-.container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-p {
-  word-wrap: break-word;
-  word-break: break-word;
-  white-space: pre-wrap;
-}
-
-footer {
-  color: var(--text-color);
-  border-top: dashed 1px rgba(219, 219, 219, 0.9);
-  margin: 20px auto 15px;
-  padding-top: 10px;
-  text-align: right;
-}
-
-header {
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
-header p {
-  text-align: left;
-  margin: 0;
-}
-
-footer {
-  margin-bottom: 20px;
-}
-
-img.home_header {
-  width: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-img.detail_header {
-  width: 100%;
-}
-
 /* LISTS */
 :not(.menu) > ul {
   list-style: none;
@@ -132,20 +59,6 @@ ul :not(.menu) > ul {
   padding-left: 3em;
   margin-top: 0.5em;
   margin-bottom: 0.7em;
-}
-
-:not(.menu) > ul {
-  list-style-type: none;
-}
-
-:not(.menu) > ul > li:before {
-  content: "-";
-  margin-right: 9px;
-}
-
-ul :not(.menu) > ul > li:before {
-  content: "*";
-  margin-right: 9px;
 }
 
 /* NAVIGATION */
@@ -201,3 +114,191 @@ div.error_box h1 {
   background-color: var(--light-alt-color);
   color: black;
 }
+
+/* HEADER */
+header {
+  margin-top: 10px; /* Slightly reduce the top margin for better focus */
+  margin-bottom: 10px;
+}
+
+img.home_header {
+  width: 100%;
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+img.detail_header {
+  width: 100%; /* Make sure the image takes the full width */
+  margin-top: 10px; /* Adjust top margin for better focus */
+  margin-bottom: 10px; /* Adjust bottom margin for better focus */
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: black; /* Set a different background color, for example, dark gray (#333) */
+  color: var(--text-color);
+  border-top: dashed 2px rgba(219, 219, 219, 1);
+  margin: 20px auto 15px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
