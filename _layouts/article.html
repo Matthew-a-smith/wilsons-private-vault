@@ -1,22 +1,12 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  {% include head.html %}
-</head>
-<body>
-  {% include header.html %}
-  <main>
-    <article>
-      {% if page.detail_image %}
-        <img class="detail_header" src="{{ page.detail_image }}">
-      {% endif %}
-      {{ content }}
-    </article>
-  </main>
-  {% include footer.html %}
-</body>
-</html>
 
+<main>
+  <article>
+    {% if page.detail_image %}
+      <img class="detail_header" src="{{ page.detail_image }}">
+    {% endif %}
+    {{ content }}
+  </article>
+</main>

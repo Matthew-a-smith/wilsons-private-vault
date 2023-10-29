@@ -143,6 +143,46 @@ footer {
   text-align: center;
 }
 
+/* ARTICLE STYLES */
+article {
+  background-color: #111; /* Use a darker shade of black for article background */
+  padding: 20px; /* Add some padding for spacing */
+  border: 1px solid #2ed573; /* Add a green border */
+  color: #DDD; /* Set a light gray text color for better readability */
+  font-size: 16px; /* Increase the font size for better legibility */
+  line-height: 1.6; /* Adjust the line height for improved readability */
+}
+
+/* ARTICLE HEADER STYLES */
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  font-weight: bold;
+  color: #2ed573; /* Use green color for headers within articles */
+  font-size: 1.4em; /* Adjust header font size */
+}
+
+/* Change the color of italic text */
+em {
+  color: #FF5733; /* Change this to the desired color */
+}
+
+/* Change the color of bold text */
+strong {
+  color: #2ed573; /* Change this to the desired color */
+}
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 permalink_name: /home
-title: jekyll-shell-theme
+title: Matthews-Project-Vault
 
 detail_image: assets/2cover.png
 

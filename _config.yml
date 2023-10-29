@@ -19,9 +19,8 @@ header_pages:
   - home.md
   - articles/article.md
       
-#paginate: 4
-#per_page: 4
-#paginate_path: "/article/page/:num/"
+paginate: 5  # Number of articles per page
+paginate_path: "articles/page:num"  # URL structure for paginated pages
 
 # set the size of the text to 'large' or 'small', default is small
 font-size: small
