@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "The Complex Reality of Eyewitness Testimony"
 ---
 
