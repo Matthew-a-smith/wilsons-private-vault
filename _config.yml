@@ -3,7 +3,7 @@ tagline: "Ruby, Jekyll, HACKED"
 description: "Project-site"
 github_username: Matthew-a-smith
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://WilsonsTech.github.io"
 
 plugins:
   - jekyll-paginate-v2  # Make sure this is at the top of the list
