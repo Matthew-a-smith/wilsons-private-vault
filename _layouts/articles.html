@@ -3,33 +3,31 @@ layout: article_page
 title: articles
 ---
 
-<div class="article-list">
-  <h2>All Articles</h2>
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li class="article-card">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <p>{{ post.categories | join: ', ' }}</p>
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    <li class="article-card">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      <p>{{ post.categories | join: ', ' }}</p>
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
 <div class="pagination">
-    {% if paginator.total_pages > 1 %}
-      {% if paginator.previous_page %}
-        <a class="pagination-item" href="{{ paginator.previous_page_path }}" rel="prev">← Previous</a>
-      {% endif %}
-            
-      {% if paginator.next_page %}
-        <a class="pagination-item" href="{{ paginator.next_page_path }}" rel="next">Next →</a>
-      {% endif %}
+  {% if paginator.total_pages > 1 %}
+    {% if paginator.previous_page %}
+      <a class="pagination-item" href="{{ paginator.previous_page_path }}" rel="prev">← Previous</a>
     {% endif %}
-  </div>
+          
+    {% if paginator.next_page %}
+      <a class="pagination-item" href="{{ paginator.next_page_path }}" rel="next">Next →</a>
+    {% endif %}
+  {% endif %}
 </div>
+
 
 <footer>  
   {{ site.title }}/{{ page.permalink_name | replace: "/", "" | replace: " ", "-" }}
