@@ -1,16 +1,28 @@
-/* Retro-style code syntax highlighting */
-.highlight {
-    background: #000; /* Black background */
-    border: 1px solid #00ff00; /* Green border */
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  
-  .highlight code {
-    color: #00ff00; /* Green text */
-    font-family: "Courier New", monospace; /* Monospace font for retro look */
-    font-size: 14px; /* Adjust font size as needed */
-    white-space: pre-wrap; /* Preserve line breaks */
-  }
-  
+.code-container {
+  position: relative;
+  border: 1px solid #2ed573; /* Green border */
+  overflow: auto;
+  padding: 10px;
+  background-color: #222; /* Dark background color */
+  color: #ddd; /* Light grey text */
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the flex container */
+  margin: -1px; /* Counteract the border to prevent double border appearance */
+}
+
+.copy-button {
+  background-color: #2ed573;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto; /* Push the button to the right */
+}
+
+.copy-button:hover {
+  background-color: #444; /* Dark grey background color on hover, adjust if needed */
+}

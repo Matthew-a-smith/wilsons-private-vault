@@ -3,17 +3,69 @@ layout: home
 permalink: /
 permalink_name: /home
 title: Matthews-Project-Vault
+detail_image: assets\cover33.svg
+---
 
-detail_image: assets/2cover.png
+# Welcome to My Website
+
+Hello, I'm Matthew. Welcome to my personal site, a space where I write articles and share my projects. My field of study is cybersecurity, with a focus on encryption algorithms, IoT device security, and programming.
 
 ---
 
-# Welcome to Matthew's Cybersecurity Insights
+### Areas of Expertise
 
-Dive into the world of cybersecurity with me, where I offer a personal perspective on the latest trends and my take on the ever-evolving digital landscape.
+**Encryption Algorithms**
+***- Diffie-Hellman, RSA, MD5, HTTPS, TLS***
 
-**Stay updated, stay secure, and stay informed.**
+**IoT Device Security**
+***- TLS/SSL, Baselineing, Network segmentation***
 
-Your journey into the depths of cybersecurity knowledge begins here.
+**IDS (Intrusion Detection Systems)**
+***- Snort++, Suricata***
 
-**Explore my latest [articles](/article)** to get started.
+**Programming**
+***- Python, JavaScript, SQL, Ruby, C++***
+
+Check out my [about me](/about_me) page for more information on my experience and qualifications.
+
+---
+
+## Latest Articles
+
+<ul class="article-card">
+  {% assign count = 0 %}
+  {% for post in site.posts %}
+    {% if count < 2 %}
+      <li>
+        <a href="{{ post.url }}" class="article-list">{{ post.title }}</a>
+        <span class="post-meta article-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore my [articles](/articles) page, where I share projects from my classes and insights into interesting cybersecurity fields.

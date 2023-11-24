@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matt-Smith"]
   spec.email         = ["matthew.a.smith1999@outlook.com"]
 
-  spec.summary       = "Simple site for articles and thoughts"
+  spec.summary       = "Built BY me"
   spec.homepage      = "http://localhost:4000"
   spec.license       = "MIT"
 

@@ -1,6 +1,9 @@
 ---
-layout: article
-title: My First Article
+layout: post
+title: "Building a Digital Fortress"
+date: "2023-10-06"
+categories: linux
+published: true
 ---
 
 Welcome to my first article on cybersecurity! In this article, we'll explore some basic principles of network security.
@@ -11,7 +14,7 @@ A **firewall** is a network security device or software that monitors and filter
 
 Here's an example of a simple firewall rule in **iptables**, a commonly used firewall tool in Linux:
 
-```bash
+```markdown
 # Allow incoming traffic on port 80 (HTTP)
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 ```

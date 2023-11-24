@@ -1,8 +1,12 @@
 ---
-layout: article
+layout: post
 title: "The Complex Reality of Eyewitness Testimony"
+date: "2023-11-06"
+categories: networking
+published: true
 ---
 
+               
 Eyewitness testimony is a powerful tool in criminal investigations, but its complexity and limitations require a closer look. In this article, we delve into the intricate world of eyewitness testimony, its vulnerabilities, and the need for caution in its application.
 
 ## The Deceptive Allure of Eyewitnesses

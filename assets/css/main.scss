@@ -1,10 +1,15 @@
 ---
- #Style-Sheet
+#Style-Sheet
 ---
 
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
 @import url('syntax-highlighting.css');
+
+a:hover {
+  color: var(--bg-color);
+  background-color: var(--alt-color);
+}
 
 :root {
   --main-color: white;
@@ -17,8 +22,8 @@
 
 /* BASE */
 body {
-  background-color: var(--bg-color);
-  color: var(--main-color);
+  background-color: black; /* Black background */
+  color: #ddd; /* Light grey text color */
   font-family: 'Source Code Pro', monospace;
   margin: 0 auto;
   width: 90%;
@@ -29,23 +34,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  color: var(--pop-color);
+  color: #fff; /* White heading color */
   font-size: 1.2em; /* Slightly larger heading font size */
 }
 
 p, ul, ol {
   font-size: 1em; /* Matching font size for text content */
-  color: var(--text-color);
+  color: #ddd; /* Light grey text color */
 }
 
 a {
   text-decoration: underline;
-  color: var(--alt-color);
+  color: #2ed573; /* Green link color, adjust if needed */
 }
 
 a:hover {
-  color: var(--bg-color);
-  background-color: var(--alt-color);
+  color: #2ed573; /* Green text color on hover */
+  background-color: #444; /* Dark grey background color on hover, adjust if needed */
 }
 
 /* LISTS */
@@ -71,7 +76,7 @@ ul :not(.menu) > ul {
 .menu ul {
   margin-top: 12px;
   margin-bottom: 12px;
-  padding-left: 0px;
+  padding-left: 0;
   list-style-type: none;
   text-align: right;
 }
@@ -83,13 +88,13 @@ ul :not(.menu) > ul {
 
 .menu ul li a {
   text-decoration: none;
-  color: var(--text-color);
+  color: rgba(219, 219, 219, 0.9); /* Adjust color to match your articles */
 }
 
 .menu ul li a:hover {
   text-decoration: none;
-  color: var(--bg-color);
-  background-color: var(--main-color);
+  color: black; /* Adjust color to match your articles */
+  background-color: #2ed573; /* Adjust color to match your articles */
 }
 
 .menu ul li.page_title {
@@ -97,7 +102,7 @@ ul :not(.menu) > ul {
   margin-left: 10px;
   float: left;
   font-weight: bold;
-  color: var(--main-color);
+  color: #2ed573; /* Adjust color to match your articles */
 }
 
 /* ERROR PAGES */
@@ -133,36 +138,78 @@ img.detail_header {
   margin-bottom: 10px; /* Adjust bottom margin for better focus */
 }
 
-/* FOOTER STYLES */
+/* Article list styles */
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #222;
+  padding: 20px;
+  border: 1px solid #2ed573;
+  color: #DDD;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.article-card h2 {
+  font-size: 1.4em;
+  color: #2ed573;
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  font-size: 1em;
+  color: #DDD;
+}
+
+.article-card a {
+  text-decoration: none;
+  color: #2ed573;
+}
+
+.article-card a:hover {
+  color: #FFF;
+  background-color: #2ed573;
+}
+
+/* Pager styles */
+.pager {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pager li {
+  list-style: none;
+}
+
+.pager a {
+  text-decoration: none;
+  color: #2ed573;
+}
+
+.pager a:hover {
+  color: #FFF;
+  background-color: #2ed573;
+}
+
+/* Footer styles */
 footer {
-  background-color: black; /* Set a different background color, for example, dark gray (#333) */
-  color: var(--text-color);
+  background-color: black;
+  color: #DDD;
   border-top: dashed 2px rgba(219, 219, 219, 1);
   margin: 20px auto 15px;
   padding-top: 10px;
   text-align: center;
 }
 
-/* ARTICLE STYLES */
-article {
-  background-color: #111; /* Use a darker shade of black for article background */
-  padding: 20px; /* Add some padding for spacing */
-  border: 1px solid #2ed573; /* Add a green border */
-  color: #DDD; /* Set a light gray text color for better readability */
-  font-size: 16px; /* Increase the font size for better legibility */
-  line-height: 1.6; /* Adjust the line height for improved readability */
-}
-
-/* ARTICLE HEADER STYLES */
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-  font-weight: bold;
-  color: #2ed573; /* Use green color for headers within articles */
-  font-size: 1.4em; /* Adjust header font size */
+/* Ensure a clear separation between the article list and the footer */
+.footer-separator {
+  margin-top: 40px;
 }
 
 /* Change the color of italic text */
@@ -174,6 +221,274 @@ em {
 strong {
   color: #2ed573; /* Change this to the desired color */
 }
+
+/* Style the image grid */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Style individual image items */
+.image-item {
+  flex: 0 0 calc(33.3333% - 20px);
+  max-width: calc(33.3333% - 20px);
+  text-align: center;
+}
+
+.image-item img {
+  max-width: 100%;
+}
+
+/* Add space between images and center text */
+.image-item p {
+  margin-top: 10px;
+}
+
+.course {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #222; /* Secondary background color */
+}
+
+.course h2 {
+  color: #2ecc71; /* Change this to the desired color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
