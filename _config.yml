@@ -23,7 +23,7 @@ permalink: articles/:year/:month/:title.html
 pagination:
   enabled: true
   per_page: 3
-  limit: 0
+  limit: 3
   sort_field: 'date'
   sort_reverse: true
 
