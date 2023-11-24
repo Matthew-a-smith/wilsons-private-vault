@@ -2,7 +2,7 @@ title: "Matthews-Project-Vault"
 tagline: "Ruby, Jekyll, HACKED"
 description: "Project-site"
 github_username: Matthew-a-smith
-baseurl: ""
+baseurl: "WilsonsTech.github.io"
 url: "https://WilsonsTech.github.io"
 
 plugins:
