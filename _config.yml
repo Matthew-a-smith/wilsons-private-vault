@@ -14,7 +14,7 @@ plugins:
 
 header_pages:
   - home.md
-  - index.md
+  - article.md
   - about_me.md
 
 permalink: articles/:year/:month/:title.html
@@ -23,7 +23,7 @@ permalink: articles/:year/:month/:title.html
 pagination:
   enabled: true
   per_page: 3
-  limit: 3
+  limit: 0
   sort_field: 'date'
   sort_reverse: true
 

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 permalink: /
 permalink_name: /home
 title: Matthews-Project-Vault
