@@ -45,27 +45,4 @@ Check out my [about me](/about_me) page for more information on my experience an
   {% endfor %}
 </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Explore my [articles](/articles) page, where I share projects from my classes and insights into interesting cybersecurity fields.
+Explore my [articles](/article) page, where I share projects from my classes and insights into interesting cybersecurity fields.
