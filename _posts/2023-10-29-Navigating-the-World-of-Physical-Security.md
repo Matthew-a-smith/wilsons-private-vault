@@ -2,7 +2,6 @@
 layout: post
 title: "Navigating the World of Physical Security"
 date: "2023-10-29"
-categories: networking
 published: true
 ---
 

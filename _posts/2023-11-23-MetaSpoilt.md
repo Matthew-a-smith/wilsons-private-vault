@@ -2,7 +2,6 @@
 layout: post
 title: "MetaSpoilt"
 date: "2023-11-21"
-categories: linux
 published: true
 ---
 

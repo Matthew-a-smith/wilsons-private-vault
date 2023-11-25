@@ -72,7 +72,7 @@ As I continue my academic journey, I'm excited to share my experiences and insig
 ---
 ## Connect with Me
 
-Find me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/matthew-smith-76315425b/)
+Find me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/matthew-smith-76315425b/){:target="_blank"}
 
 ---
 

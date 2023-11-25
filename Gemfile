@@ -11,7 +11,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'faraday-retry'
   gem 'webrick'
-  gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate', '~> 1.1.0'
   gem 'jekyll'
 
 end

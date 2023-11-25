@@ -2,7 +2,6 @@
 layout: post
 title: "Building a Digital Fortress"
 date: "2023-10-28"
-categories: programming
 published: true
 ---
 

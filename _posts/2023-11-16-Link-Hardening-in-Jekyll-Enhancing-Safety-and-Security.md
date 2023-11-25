@@ -2,7 +2,6 @@
 layout: post
 title: "Link Hardening in Jekyll Enhancing Safety and Security"
 date: "2023-11-16"
-categories: linux
 published: true
 ---
 
