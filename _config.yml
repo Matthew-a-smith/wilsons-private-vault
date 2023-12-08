@@ -1,9 +1,9 @@
-title: "Matthews-Project-Vault"
+title: "wilsons-Project-Vault"
 tagline: "Ruby, Jekyll, HACKED"
 description: "Project-site"
-github_username: Matthew-a-smith
+github_username: "your git hub username"
 baseurl: ""
-url: "https://WilsonsTech.github.io"
+url: ""
 
 plugins:
   - paginate  # Make sure this is at the top of the list
